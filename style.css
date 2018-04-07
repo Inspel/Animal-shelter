@@ -1,5 +1,20 @@
 body {
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-box-shadow:
+      5px 0 10px #dbdbdb,
+      -5px 0 10px #dbdbdb;
+  box-shadow:
+      5px 0 10px #dbdbdb,
+      -5px 0 10px #dbdbdb;
 }
 
 .visually-hidden {
@@ -11,3 +26,176 @@ body {
   margin: -1px;
   overflow: hidden;
 }
+
+/*header*/
+
+.wrapper-start {
+  box-sizing: border-box;
+  height: 925px;
+  padding: 0 376px;
+  background-image: url("img/background-start.jpg");
+  background-color: #282120;
+}
+
+.navigation-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 185px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.logo span:first-child {
+  font-size: 33px;
+  line-height: 48px;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+  color: #f1cdb3;
+}
+
+.logo span:last-child {
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.menu-element {
+  padding-right: 41px;
+}
+
+.menu-element:last-child {
+  padding-right: 0;
+}
+
+.link-page {
+  position: relative;
+  text-decoration: none;
+  color: #cdcdcd;
+}
+
+.link-page:hover,
+.link-page:focus,
+.link-page:active {
+  color: #ffffff;
+}
+
+.link-page:hover:after,
+.link-page:focus:after,
+.link-page:active:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 3px;
+  background-color: #f1cdb3;
+}
+
+/*make-a-friend*/
+
+.make-a-friend {
+  padding-top: 240px;
+  width: 455px;
+}
+
+.header-friend {
+  margin: 0;
+  margin-bottom: 27px;
+  padding: 0;
+  font-family: "Georgia", serif;
+  font-size: 44px;
+  line-height: 57px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.text-friend {
+  margin: 0;
+  margin-bottom: 38px;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #cdcdcd;
+}
+
+.button-friend {
+  padding: 16px 45px;
+  font-size: 18px;
+  line-height: 57px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #292929;
+  background-color: #f1cdb3;
+}
+
+.button-friend:hover {
+  background-color: #fddcc4;
+}
+
+.about-shelter {
+  padding-top: 113px;
+  padding-bottom: 114px;
+  background-image: url("img/pets.png");
+  background-repeat: no-repeat;
+  background-position: 543px 89px;
+  background-color: #fafafa;
+}
+
+.about-wrapper {
+  position: relative;
+  width: 430px;
+  margin: 0 auto;
+  transform: translatex(50%);
+}
+
+.header {
+  font-family: "Georgia", serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+}
+
+.header-about {
+  margin: 0;
+  padding-right: 21px;
+  margin-bottom: 28px;
+  letter-spacing: 2px;
+  color: #545454;
+}
+
+.text-about {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
+}
+
+.text-about:last-child {
+  margin: 0;
+}
+
+
+
