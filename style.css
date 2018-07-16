@@ -212,21 +212,34 @@ body {
 
 .slider-pets {
   display: flex;
-  justify-content: center;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
   align-items: center;
 }
 
 .list-pets {
   display: flex;
+  width: 910px;
   margin: 0;
   padding: 0;
   list-style: none;
+  justify-content: space-between;
 }
 
 .list-pets-item {
   display: flex;
+  overflow: hidden;
+  width: 270px;
   flex-direction: column;
   align-items: center;
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: normal;
+  color: #545454;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .slider-button {
@@ -238,6 +251,16 @@ body {
 }
 
 .button-rest {
+  display: block;
+  width: 266px;
+  margin: auto;
+  text-align: center;
+  border-radius: 50px;
+  color: #292929;
+  background-color: #f1cdb3;
+}
+
+.button-more {
   display: block;
   width: 266px;
   margin: auto;
